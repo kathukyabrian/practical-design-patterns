@@ -17,7 +17,6 @@ public class HybridSpecDecorator extends MazdaSpecDecorator {
 
     @Override
     public double cost() {
-        System.out.println("current cost = " + mazda.cost() + " additional cost = " + 400_000);
         return mazda.cost() + 400_000;
     }
 }

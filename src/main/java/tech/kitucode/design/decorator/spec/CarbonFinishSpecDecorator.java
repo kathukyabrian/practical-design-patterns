@@ -17,7 +17,6 @@ public class CarbonFinishSpecDecorator extends MazdaSpecDecorator {
 
     @Override
     public double cost() {
-        System.out.println("current cost = " + mazda.cost() + " additional cost = " + 200_000);
         return 200_000 + mazda.cost();
     }
 }
